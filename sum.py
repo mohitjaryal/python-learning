@@ -1,6 +1,20 @@
 # wap to find sum of 2 numbers
 
-num1 = int(input('Enter number 1 :'))
-num2 = int(input('Enter number 2 :'))
+def calculate():
+    num1 = int(input('Enter number 1 :'))
+    num2 = int(input('Enter number 2 :'))
 
-operation = input('Which operation you want to perform : (1. Add \n 2. Subtract \n 3. Multiply \n 4. Divide\n)')
+    operation = input('Which operation you want to perform : (1. Add \n 2. Subtract \n 3. Multiply \n 4. Divide \n)')
+
+    if operation == '1':
+        print(num1 + num2)
+    elif operation == '2':
+        print(num1 - num2)
+    elif operation == '3':
+        print(num1 * num2)
+    elif operation == '4':
+        print(num1 / num2)
+    else:
+        print('Invalid operation')
+
+calculate()

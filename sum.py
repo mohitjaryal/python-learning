@@ -1,1 +1,1 @@
-# wap to finc
+# wap to find sum of

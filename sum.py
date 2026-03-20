@@ -1,3 +1,3 @@
 # wap to find sum of 2 numbers
 
-num1
+num1 = int

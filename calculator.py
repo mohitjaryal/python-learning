@@ -2,4 +2,4 @@
 
 num = int(('Enter a number :'))
 
-# which operation
+# which operation user wants to perform

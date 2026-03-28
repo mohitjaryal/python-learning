@@ -2,7 +2,7 @@
 
 
 # function for performing math calculations
-def math():
+def calculation():
     # user input for math operation
     operation = int(input('What do you want to perform : \n1. Addition \n2.Subtraction \n3. Division \n4. Multiplication :'))
     num1 = int(input('Enter first number :'))
@@ -35,6 +35,6 @@ def table():
 # user input
 work = int(input('What do you want to do sir \n1. Calculation \n2. Print Table :'))
 if work == 1:
-    math()
+    calculation()
 else:
     table()

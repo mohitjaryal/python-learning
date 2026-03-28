@@ -14,6 +14,8 @@ def calculation():
     elif operation == 2:
         print(num1 - num2)
     elif operation == 3:
+        if num2 == 0:
+            print("Cannot divide by zero")
         print(num1 / num2)
     elif operation == 4:
         print(num1 * num2)

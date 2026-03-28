@@ -35,8 +35,14 @@ def table():
 
 
 # user input
-work = int(input('What do you want to do sir \n1. Calculation \n2. Print Table :'))
-if work == 1:
-    calculation()
-else:
-    table()
+while True:
+    work = int(input('What do you want to do sir \n1. Calculation \n2. Print Table \nType "exit" to quit :'))
+    if work == 1:
+        calculation()
+    elif work == 2:
+        table()
+    elif work.lower() == 'exit':
+        print("Program ended 👋")
+        break
+    else:
+        print("Invalid choice, try again!")

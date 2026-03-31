@@ -3,10 +3,10 @@ def average(*numbers):
     total = 0
     for i in numbers:
         total += i
-    print('Average is:', total / len(numbers))
+    return total / len(numbers)
 
 
 # Taking multiple inputs from user
 nums = list(map(int, input("Enter numbers separated by space: ").split()))
 
-average(*nums)
+print('Average is :',average(*nums))

@@ -7,6 +7,7 @@ print(type(li))
 
 li2 = ['Mohit', 'Rohit', 'Ram', 'Shayam']
 print(li2)
+
 # printing the data type
 print(type(li2))
 

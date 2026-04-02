@@ -7,4 +7,4 @@ check = int(input('Btao konsa number dhundna hai :'))
 if check in li:
     print('Ha bhai mil gya')
 else:
-    print('Nhi mila bhai sorry')
+    print('Nhi mila bhai sorry') 

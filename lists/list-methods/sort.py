@@ -3,5 +3,10 @@
 # list
 li = [2,5,4,3,6,7,8,9,0,1]
 
-# .sort() method
-print('Before sorting :')
+# .sort() method 
+
+# before sorting
+print('Before sorting :', li)
+
+# after sorting
+print('After sorting :')

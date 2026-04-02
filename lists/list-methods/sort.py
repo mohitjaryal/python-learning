@@ -1,1 +1,1 @@
-# .sort() is a method
+# .sort() is a method used in lists 

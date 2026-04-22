@@ -5,15 +5,23 @@
 class Atm:
 
 # static variable
-    counter = 1
+    __counter = 1
 
     # Constructor: automatically runs when object is created
     def __init__(self):
         self.pin = ''
         self.balance = 0
         self.menu()
-        self.cid = Atm.counter
-        Atm.counter +=1
+        self.cid = Atm.__counter
+        Atm.__counter +=1
+
+    # getter -> this is a method of a class
+    # this is a static method
+    # we can access static mehtod by using class name
+    # utility functions
+    @staticmethod
+    def get_counter():
+        return Atm.__counter
 
     # Menu function (runs continuously using loop)
     def menu(self):
